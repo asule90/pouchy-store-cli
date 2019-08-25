@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "DEBUG=pouchdb:* node -r esm cli.js"
+    "start": "node -r esm cli.js"
   },
   "author": "asule",
   "license": "ISC",
